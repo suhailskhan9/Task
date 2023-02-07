@@ -1,0 +1,81 @@
+body{
+    font-family: 'Karla',sans-serif;
+    background-color: hsl(204, 43%, 93%);
+   padding-top:50px ;
+   margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 50px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    max-width: 555px;
+    margin: auto;
+    
+}
+
+
+.top-container{
+    background-color:#ffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+}
+
+
+.top-container h3{
+    color:  hsl(179, 62%, 43%);
+}
+.top-container h4{
+    color: hsl(71, 73%, 54%);
+}
+
+.top-container p{
+    color:hsl(218, 22%, 67%);
+ 
+
+}
+
+.bottom-container{ 
+    padding: 0 20px;
+    display: flex;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+button{
+    text-align: center;
+    background-color:hsl(71, 73%, 54%) ;
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.bottom-left{
+    padding: 20px;
+    
+}
+.bottom-left p{
+   font-size: 14px;
+}
+.bottom-right{
+    padding: 20px;
+    background-color: hwb(179,15%,23%);
+    
+}
+.bottom-right p{
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width:375px){
+    .container{
+        
+
+    }
+}
